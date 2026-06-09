@@ -72,7 +72,7 @@
   #cover::before {
     content: '';
     position: absolute; inset: 0;
-    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23b5651d' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23b5651d' fi[...]
     pointer-events: none;
     opacity: 0.5;
   }
@@ -119,6 +119,12 @@
     opacity: 0;
     animation: rise 1s 0.3s ease forwards;
     overflow: hidden;
+  }
+  .cover-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
   }
   .cover-photo svg { opacity: 0.35; }
   .scroll-hint {
@@ -417,10 +423,7 @@
 <!-- COVER -->
 <section id="cover">
   <div class="cover-photo">
-    <svg width="44" height="44" fill="none" viewBox="0 0 24 24" stroke="#b5651d" stroke-width="1.2">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0 2c-5.33 0-8 2.67-8 4v1h16v-1c0-1.33-2.67-4-8-4z"/>
-    </svg>
-    <span>Your photo here</span>
+    <img src="photo goldy without bg.jpeg" alt="Goldy Mehra Portfolio Photo">
   </div>
   <div class="cover-eyebrow">A life in chapters</div>
   <h1 class="cover-title">Goldy<br>Mehra</h1>
@@ -448,11 +451,11 @@
     </div>
 
     <p class="prose">
-      Born on <em>21st October 1990</em> in Hoshiarpur, India, I grew up speaking Punjabi, surrounded by community, hard work, and a deep desire to build something meaningful with my hands and my presence.
+      Born on <em>21st October 1990</em> in Hoshiarpur, India, I grew up speaking Punjabi, surrounded by community, hard work, and a deep desire to build something meaningful with my hands and my[...]
     </p>
 
     <p class="prose">
-      My formal education took me through the <em>Punjab School Education Board</em>, where I completed my Higher Secondary Education in 2009 — laying the foundation for a life of discipline and continuous learning.
+      My formal education took me through the <em>Punjab School Education Board</em>, where I completed my Higher Secondary Education in 2009 — laying the foundation for a life of discipline an[...]
     </p>
 
     <div class="card-row">
@@ -493,7 +496,7 @@
     <hr class="chapter-divider">
 
     <p class="prose">
-      My professional story began not in an office but on the open ground — as a <em>Site Supervisor</em> at R.K. Aggarwal & Co., overseeing road construction across India from 2012 to 2016. It was demanding, physical, and deeply formative.
+      My professional story began not in an office but on the open ground — as a <em>Site Supervisor</em> at R.K. Aggarwal & Co., overseeing road construction across India from 2012 to 2016. It[...]
     </p>
 
     <div class="card-row">
@@ -512,7 +515,7 @@
     </div>
 
     <p class="prose">
-      After four years on construction sites, I transitioned into the world of numbers and records — becoming a <em>Book-keeper</em> at the same firm. It was a pivot that taught me adaptability, the same quality that would later define my career.
+      After four years on construction sites, I transitioned into the world of numbers and records — becoming a <em>Book-keeper</em> at the same firm. It was a pivot that taught me adaptability[...]
     </p>
   </div>
 </section>
@@ -536,7 +539,7 @@
     </div>
 
     <p class="prose">
-      In August 2018, I made one of the boldest decisions of my life — leaving India for <em>Selangor, Malaysia</em>, to join Kopitiam 80 as a Head Waiter. What began as a new job became a seven-year chapter of growth, multicultural connection, and professional excellence.
+      In August 2018, I made one of the boldest decisions of my life — leaving India for <em>Selangor, Malaysia</em>, to join Kopitiam 80 as a Head Waiter. What began as a new job became a seve[...]
     </p>
 
     <div class="card-row">
@@ -561,7 +564,7 @@
     </div>
 
     <p class="prose">
-      Seven years. Thousands of customers. Countless moments of service. Malaysia shaped me into a professional who thrives under pressure, communicates across cultures, and finds dignity in every role.
+      Seven years. Thousands of customers. Countless moments of service. Malaysia shaped me into a professional who thrives under pressure, communicates across cultures, and finds dignity in ever[...]
     </p>
   </div>
 </section>
